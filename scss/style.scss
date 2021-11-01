@@ -1,0 +1,15 @@
+// Подключение переменных
+@import "variables";
+// Подключение миксинов
+@import "mixins";
+//Подключение базовых настроек
+@import "settings";
+//Подключение normalize
+@import "normalize";
+//Стили для блока header
+@import "blocks/header";
+
+
+// Подключаем стили для адаптива
+@import "media";
+

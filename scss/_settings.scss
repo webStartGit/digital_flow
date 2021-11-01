@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;  // чтобы контент блока считался с учетом отступов и границы
+}
+/* img
+  max-width: 100%  */ // чтобы картинка не вываливалась за пределы родительского блока. Например, если картинка в ссылке
+
+/* .container {
+  max-width: 1220px; // добавить к ширине по 10 из-за padding
+  margin: 0 auto; // чтобы выровнять по центру
+  padding: 0 10px; // отступы для адаптивной верстки
+}*/
+
+/* a {
+  color: inherit; // если нужна ссылка
+  text-decoration: none;
+}*/
+
+/* body {
+  font-family:
+  background-color:
+  color:
+}*/
+//font-face подключение шрифтов
+@font-face {
+  font-family: "Montserrat"; //название семейства, которое нужно вписать в font-family:
+  // Браузер сначала попробует найти шрифт локально
+  src: local("Montserrat"), url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff"); // если не получилось, загрузит woff2, если браузер не поддерживает woff2, загрузит woff
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
